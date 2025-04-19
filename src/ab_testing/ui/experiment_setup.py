@@ -15,7 +15,6 @@ def render_experiment_setup_section() -> ExperimentParams:
     Returns:
         ExperimentParams object with user-configured values
     """
-    st.header("2. Experiment Setup")
     
     # Create three columns for experiment parameters
     col1, col2, col3 = st.columns(3)

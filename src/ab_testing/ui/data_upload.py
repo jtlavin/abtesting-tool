@@ -16,7 +16,6 @@ def render_data_upload_section() -> Tuple[Optional[pd.DataFrame], Optional[pd.Da
     Returns:
         Tuple containing (pretest_data, test_data)
     """
-    st.header("1. Data Upload")
     st.write("Upload your pretest and test data files in CSV format.")
     
     # Create two columns for file uploaders

@@ -28,9 +28,8 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 2. Create a virtual environment and install dependencies:
 ```bash
-uv venv
+uv sync
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-uv pip install -r requirements.txt
 ```
 
 ## Running the Application
