@@ -1,0 +1,14 @@
+[theme]
+base = "light"                   # Theme name (light | dark)
+primaryColor = "##dde6f3"        # Primary accent for interactive elements
+backgroundColor = "#20376b"     # Background color for main content
+secondaryBackgroundColor = "#B9F1C0"  # Background for sidebar and widgets
+textColor = "#20376b"          # Color for text
+font = "sans serif"            # Font family (serif | sans serif | monospace)
+
+[theme.sidebar]
+primaryColor = "##dde6f3"        # Primary accent for interactive elements
+backgroundColor = "#20376b"     # Background color for main content
+secondaryBackgroundColor = "#B9F1C0"  # Background for sidebar and widgets
+textColor = "#20376b"          # Color for text
+font = "sans serif"            # Font family (serif | sans serif | monospace)
